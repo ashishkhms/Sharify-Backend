@@ -10,7 +10,7 @@ connectDB();
 //CORS
 var cors = require('cors');
 var corsOptions = {
-    origin: 'https://ashishkhms.github.io/',
+    origin: 'https://ashishkhms.github.io/Sharify-Frontend/',
     optionsSuccessStatus: 200,
 }
 app.use(cors(corsOptions));
